@@ -2,15 +2,14 @@
 interface DevCardprops {
     name: string;
     imgSrc?: string;
-    ticker: string;
     }
     
-    function DevCard({ name, imgSrc, ticker } : DevCardprops) {
+    function DevCard({ name, imgSrc } : DevCardprops) {
         return (
             <figure>
             {(imgSrc) ? 
-            (<img src={imgSrc}  alt={name} />) : (<p>???</p>)}
-            <figcaption>{name} {ticker}</figcaption>
+            (<img className="devPictures" src={imgSrc}  alt={name} />) : (<p>???</p>)}
+            <figcaption>{name}</figcaption>
            </figure>
       );
     }
