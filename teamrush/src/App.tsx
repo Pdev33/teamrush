@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import './App.css'
+import footer from './components/footer'
 
 function App() {
   const devList = [
@@ -16,8 +17,11 @@ function App() {
       imgSrc: "src/assets/images-indiv/_MG_8008.JPG",
     },
     ]
-
-  
+return(
+  <>
+  <footer />
+  </>
+)
   
 }
 
