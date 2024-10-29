@@ -2,7 +2,7 @@ import { useState } from "react";
 import "./App.css";
 import NavBar from "./components/NavBar";
 import DevCard from "./components/devCard";
-import Nav from "./components/nav";
+import Nav from "./components/Nav";
 
 function App() {
 	const [devIndex, setDevIndex] = useState(0);
