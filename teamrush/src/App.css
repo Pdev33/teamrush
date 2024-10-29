@@ -37,6 +37,7 @@ animation: fadingGlow 6s infinite linear;
                 0 0 20px rgba(255, 182, 193, 0.3);
   }
 }
+
 .devCard {
   perspective: 1000px;
   cursor: pointer;
@@ -53,7 +54,6 @@ animation: fadingGlow 6s infinite linear;
 }
 
 .devCard img,
-
 .devCard figcaption {
   backface-visibility: hidden;
   position: absolute;
