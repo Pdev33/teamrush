@@ -9,7 +9,6 @@ import "./App.css";
 import DevCard from "./components/devCard";
 import DevNavBar from "./components/devNav";
 import Nav from "./components/Nav";
-import footer from "./components/footer";
 import Footer from "./components/footer";
 >>>>>>> a4d3ca08f63b6c7d699d238f4665c1dd5fb445af
 
