@@ -3,7 +3,6 @@ import "./App.css";
 import DevCard from "./components/devCard";
 import DevNavBar from "./components/devNav";
 import Nav from "./components/Nav";
-import footer from "./components/footer";
 import Footer from "./components/footer";
 
 function App() {
