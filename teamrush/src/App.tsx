@@ -3,6 +3,8 @@ import "./App.css";
 import DevCard from "./components/devCard";
 import DevNavBar from "./components/devNav";
 import Nav from "./components/Nav";
+import footer from "./components/footer";
+import Footer from "./components/footer";
 
 function App() {
 	useEffect(() => {
@@ -41,7 +43,7 @@ function App() {
 				<DevCard
 					name={devList[devIndex].name}
 					imgSrc={devList[devIndex].imgSrc}
-					description={devList[devIndex].description} // Passez la description en prop
+					description={devList[devIndex].description}
 				/>
 			</div>
 
@@ -50,6 +52,7 @@ function App() {
 				setDevIndex={setDevIndex}
 				devList={devList}
 			/>
+			<Footer />
 		</>
 	);
 }
